@@ -1,34 +1,53 @@
 body {
-    font-family: "PT Sans Narrow", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    width: 375px;
-    border: 1px solid red;
+  font-family: "PT Sans Narrow", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 375px;
+  border: 1px solid red;
 }
 
 header {
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0px;
 }
 
 .foto {
-    width: 160px;
-    height: 160px;
-    border-radius: 175px;
+  width: 160px;
+  height: 160px;
+  border-radius: 175px;
 }
 
 p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 h2 {
-    font-size: 32px;
-    font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
 }
 
 h1 {
-    font-size: 56px;
-    font-family: "Playfair Display", serif;
+  font-size: 56px;
+  font-family: "Playfair Display", serif;
+  margin: 0px;
+}
+
+button {
+  background-color: #0699a6;
+  color: white;
+  width: 225px;
+  height: 60px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 18px;
+  border: 0px;
+}
+
+.beige {
+  color: #9e8c6c;
 }
