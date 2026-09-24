@@ -1,15 +1,30 @@
-body {
+.dentro {
   font-family: "PT Sans Narrow", sans-serif;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 20px;
-  width: 375px;
-  border: 1px solid red;
+  flex-direction: row-reverse;
+  gap: 50px;
 }
 
 header {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 0px;
+}
+
+.cabeza {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+footer {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -50,4 +65,24 @@ button {
 
 .beige {
   color: #9e8c6c;
+}
+
+@media (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .cabeza {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .dentro {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
 }
