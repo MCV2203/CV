@@ -23,7 +23,7 @@ header {
   display: flex;
   align-items: center;
   gap: 55px;
-  margin-top: -20px;
+  margin-top: 20px;
 }
 
 .foto-contenedor {
@@ -40,8 +40,8 @@ header {
   position: absolute;
   width: 95px;
   height: 95px;
-  right: -30px;
-  bottom: -10px;
+  left: 100px;
+  top: 80px;
 }
 
 .datos {
