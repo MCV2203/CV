@@ -17,6 +17,7 @@ header {
   clip-path: polygon(0 0, 100% 0, 100% 78%, 0 100%);
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .cabecera {
@@ -49,6 +50,14 @@ header {
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
+}
+
+.datos h1 {
+  line-height: 50px;
+}
+
+.datos button {
+  margin-top: 20px;
 }
 
 .datos p {
@@ -179,6 +188,10 @@ footer a {
 
 @media (max-width: 768px) {
 
+  main {
+    padding: 0 70px;
+  }
+
   header {
     height: 450px;
     clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%);
@@ -222,4 +235,44 @@ footer a {
   footer {
     padding-top: 60px;
   }
+
+  .datos h1 {
+    line-height: 30px;
+  }
+}
+
+@media (prefers-color-scheme: dark){
+    body {
+        background-color: #0E1B1D;
+        color: white;
+    }
+
+    header {
+        background-color: #010F11;
+    }
+
+    header::after {
+        background-color: #0E1B1D;
+    }
+
+    main,
+    .contenido {
+        background-color: #0E1B1D;
+    }
+
+    h2,
+    p,
+    ul li,
+    ul li span,
+    .fecha {
+        color: white;
+    }
+
+    footer {
+        background-color: #010F11;
+    }
+
+    footer::before {
+        background-color: #0E1B1D;
+    }
 }
